@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>404 Not Found</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      background: radial-gradient(#1a1a1a, #000);
+      color: #fff;
+      font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+      height: 100vh;
+      display: flex;
+      justify-content: center;
+      align-items: center;
+      flex-direction: column;
+      overflow: hidden;
+    }
+
+    .error {
+      font-size: 12rem;
+      font-weight: bold;
+      text-shadow: 0 0 20px #ff0055, 0 0 40px #ff0055;
+      animation: glow 2s ease-in-out infinite alternate;
+    }
+
+    @keyframes glow {
+      from {
+        text-shadow: 0 0 10px #ff0055, 0 0 20px #ff0055;
+      }
+      to {
+        text-shadow: 0 0 30px #ff3366, 0 0 60px #ff3366;
+      }
+    }
+
+    .message {
+      font-size: 1.5rem;
+      margin: 20px 0;
+    }
+
+    .home-button {
+      padding: 12px 30px;
+      background-color: #ff0055;
+      color: #fff;
+      text-decoration: none;
+      border: none;
+      border-radius: 30px;
+      font-size: 1rem;
+      cursor: pointer;
+      transition: background 0.3s ease;
+    }
+
+    .home-button:hover {
+      background-color: #e6004c;
+    }
+
+    @media (max-width: 600px) {
+      .error {
+        font-size: 8rem;
+      }
+
+      .message {
+        font-size: 1.2rem;
+      }
+    }
+  </style>
+</head>
+<body>
+  <div class="error">404</div>
+  <div class="message">Oops! The page you're looking for doesn't exist.</div>
+  <a href="/" class="home-button">Go Home</a>
+</body>
+</html>
