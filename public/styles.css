@@ -1,4 +1,135 @@
 /* Reset default margin/padding */
+/* * {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #121212; 
+  color: #f5c518; 
+}
+
+header {
+  background-color: #000;
+  color: #f5c518;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #f5c518;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #1a1a1a, #2e2e2e); 
+  color: #f5c518;
+}
+
+footer {
+  text-align: center;
+  padding: 20px;
+  background-color: #000;
+  color: #f5c518;
+  margin-top: 40px;
+} */
+
+
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+body {
+  font-family: Arial, sans-serif;
+  line-height: 1.6;
+  background-color: #f0fefc;
+  color: #033b4a; 
+}
+
+header {
+  background: linear-gradient(90deg, #007bff, #00cba9); 
+  color: #fff;
+  padding: 20px 0;
+  text-align: center;
+}
+
+nav ul {
+  list-style: none;
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+nav ul li {
+  margin: 0 15px;
+}
+
+nav ul li a {
+  color: #fff;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+nav ul li a:hover {
+  text-decoration: underline;
+}
+
+.hero {
+  padding: 60px;
+  text-align: center;
+  background: linear-gradient(135deg, #e0f7fa, #ccf5ec); 
+  color: #033b4a;
+}
+
+footer
+{
+  position: fixed;
+  width: 100%;
+  text-align: center;
+  padding: 20px;
+  background: linear-gradient(90deg, #007bff, #00cba9);
+  color: #fff;
+  margin-top: 40px;
+  bottom: 5px;
+}
+
+/* .reports
+{
+  border:solid black  1px;
+  height: 100px;
+  width:fit-content;
+  overflow: auto;
+} */
+ report-section
+ {
+
+ }
+
+/* Reset default margin/padding
 * {
   margin: 0;
   padding: 0;
@@ -52,4 +183,4 @@ footer {
   background-color: #333;
   color: #fff;
   margin-top: 40px;
-}
+} */

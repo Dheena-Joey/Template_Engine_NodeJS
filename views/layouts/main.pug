@@ -1,0 +1,25 @@
+html
+  head
+    meta(charset="UTF-8")
+    meta(name="viewport", content="width=device-width, initial-scale=1.0")
+    title #{docTitle}
+    link(rel="stylesheet", href="/styles.css")
+header
+    h1 Welcome to My Homepage
+    nav
+      ul
+        li
+          a(href="/") Home
+        li  
+          a(href="/about") About
+        li
+          a(href="/") Services
+        li
+          a(href="/") Contact
+        li
+          a(href="/reports") Reports
+    
+    block content 
+
+footer
+    p &copy; 2025 My Website. All rights reserved.

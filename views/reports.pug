@@ -1,0 +1,17 @@
+extends layouts/main.pug
+
+block content
+  section.hero
+    h2 Monthly Course Report
+    p List of available courses for August 2025
+
+  section.report-section
+    h2 Courses
+    div.reports
+      ul
+        if(courses.length === 0)
+          li No courses available 
+          break 
+        else 
+          for course in courses
+            li #{course}
